@@ -1,4 +1,5 @@
 export * from './Container'
+export * from './Logo'
 export * from './Nav'
 export * from './NavbarLinks'
 export * from './Footer'

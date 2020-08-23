@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {useStaticQuery, Link, graphql} from 'gatsby'
 import { Navigation, Toggle, Navbox, Hamburger } from '../elements'
-import { NavbarLinks } from '../components'
+import { NavbarLinks, Logo } from '../components'
 import {
     FaTwitter, FaInstagram, FaMedium, FaBars
 } from 'react-icons/fa';
@@ -13,6 +13,7 @@ export const Nav = ({ children }) => {
 
   return (
     <Navigation>
+      <Logo />
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
