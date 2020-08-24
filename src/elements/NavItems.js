@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export const NavItem = styled(Link)`
   text-decoration: none;
-  color: #19446C;
+  color: #444444;
   font-family: alice;
   display: inline-block;
   white-space: nowrap;

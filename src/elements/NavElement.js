@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Navigation = styled.nav`
   height: 10vh;
+  width: 100%;
   display: flex;
   background-color: transparent;
   position: relative;
@@ -44,7 +45,7 @@ export const Navbox = styled.div`
     width: 100%;
     justify-content: flex-start;
     padding-top: 2vh;
-    background-color: #FFFCF8;
+    background-color: white;
     transition: all 0.3s ease-in;
     top: 8vh;
     left: ${props => (props.open ? "-100%" : "0")};
@@ -52,7 +53,7 @@ export const Navbox = styled.div`
 `
 
 export const Hamburger = styled.div`
-  background-color: #19446C;
+  background-color: #444444;
   width: 30px;
   height: 3px;
   transition: all .3s linear;
@@ -64,7 +65,7 @@ export const Hamburger = styled.div`
   ::after {
     width: 30px;
     height: 3px;
-    background-color: #19446C;
+    background-color: #444444;
     content: "";
     position: absolute;
     transition: all 0.3s linear;

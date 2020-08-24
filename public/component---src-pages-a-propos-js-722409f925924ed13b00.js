@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{JzS6:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),u=t.n(a),c=t("Kvkj");e.default=function(n){n.data;return u.a.createElement(c.f,null,u.a.createElement(c.b,null))}}}]);
+//# sourceMappingURL=component---src-pages-a-propos-js-722409f925924ed13b00.js.map
