@@ -48,7 +48,7 @@ export const FooterSocialIcons = styled.div`
   }
 
   & .img:hover, img:focus {
-    filter: brightness(50%);
+    color: #9D5F5F;
   }
 `
 

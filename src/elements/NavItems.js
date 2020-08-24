@@ -20,15 +20,19 @@ export const NavItem = styled(Link)`
     width: 0%;
     content: ".";
     color: transparent;
-    background: #19446C;
+    background: linear-gradient(180deg, #E9A0A0 0%, #9D5F5F 100%);
     height: 1px;
     transition: all 0.4s ease-in;
   }
 
   :hover {
-    opacity: 0.6;
+    text-decoration: none;
+    color: #9D5F5F;
+
     ::after {
       width: 100%;
+      color: linear-gradient(180deg, #E9A0A0 0%, #9D5F5F 100%);
+      text-decoration: none;
     }
   }
 
