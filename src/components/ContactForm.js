@@ -4,8 +4,8 @@ import { ContactWrapper, HoursWrapper } from '../elements'
 export const ContactForm = () => {
   return (
     <div>
+    <h3 style={{textAlign:'center', marginTop:'6rem'}}>Envoyez nous un message</h3>
     <ContactWrapper>
-    <h3>ENVOYEZ-NOUS UN MESSAGE</h3>
     <form method="post" action="https://formspree.io/xwkragwv">
       <label>
         <input type="text" name="name" id="name" placeholder="nom." />
@@ -22,6 +22,7 @@ export const ContactForm = () => {
       <button type="submit" id="button"><p>envoyer</p></button>
     </form>
     </ContactWrapper>
+    <h3 style={{textAlign:'center', marginTop:'6rem'}}>Horaires d'ouverture</h3>
     <HoursWrapper>
       <p>
       Lundi

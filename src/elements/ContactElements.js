@@ -4,89 +4,92 @@ export const ContactWrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin-top: 12rem;
-  margin-bottom: 1000px;
+  margin-top: 6rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
   justify-content: center;
   text-align: center;
   z-index: 0;
   position: relative;
-  background-color: green;
+  background: linear-gradient(111.76deg, rgba(233, 160, 160, 0.076) -3.76%, rgba(157, 95, 95, 0.076) 105.15%);
   border-radius: 4px;
 
 
 p {
-  color: #444444;
-  positio
+  color: fff;
+  margin: auto;
 }
 
 #name {
   border-radius: 4px;
-  box-shadow: 5px 5px 5px #444444;
-  width: 35rem;
-  height: 5rem;
+  box-shadow: 5px 5px 5px #a3a3a3;
+  width: 40rem;
+  height: 4rem;
   margin: 30px;
   color: #444444;
   background-color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   border: none;
   font-family: alice;
 }
 
 #email {
   border-radius: 4px;
-  box-shadow: 5px 5px 5px #444444;
-  width: 35rem;
-  height: 5rem;
+  box-shadow: 5px 5px 5px #a3a3a3;
+  width: 40rem;
+  height: 4rem;
   margin: 30px;
   color: #444444;
   background-color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   border: none;
   font-family: alice;
 }
 
 #subject {
   border-radius: 4px;
-  box-shadow: 5px 5px 5px #444444;
-  width: 35rem;
-  height: 5rem;
+  box-shadow: 5px 5px 5px #a3a3a3;
+  width: 40rem;
+  height: 4rem;
   margin: 30px;
   color: #444444;
   background-color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   border: none;
   font-family: alice;
 }
 
 #message {
   border-radius: 4px;
-  box-shadow: 5px 5px 5px #444444;
-  width: 35rem;
+  box-shadow: 5px 5px 5px #a3a3a3;
+  width: 40rem;
   height: 15rem;
   margin: 30px;
   color: #444444;
   background-color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   border: none;
   font-family: alice;
-  resize : none;
 }
 
 #button {
+  display: flex;
+  margin: auto;
   color: white;
-  font-size: 32px;
+  font-size: 24px;
   width: 200px;
-  height: 80px;
+  height: 4rem;
   text-align: center;
   align-content: center;
   justify-content: center;
   border-radius: 4px;
+  border: 0;
   transition: filter 0.3s ease;
   cursor: pointer;
   text-decoration: none;
