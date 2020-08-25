@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[],"extensions":[".md",".mdx"],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","oprions":{"maxWidth":1200}}]},
     },{
       plugin: require('/Users/lucmosser/code/lmssr/gatsby/wagency/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":["roboto mono","alice:400, 400i, 700, 700i","seoulhangang:400, 400i, 700, 700i"],"display":"swap"},
+      options: {"plugins":[],"fonts":["roboto mono","montserrat:400, 400i, 700, 700i"],"display":"swap"},
     },{
       plugin: require('/Users/lucmosser/code/lmssr/gatsby/wagency/gatsby-ssr'),
       options: {"plugins":[]},

@@ -1,6 +1,6 @@
 export default {
   fonts: {
-    main: "Alice",
+    main: "Montserrat",
     second: "SeoulHangang",
     code: "Roboto , monospace",
   },

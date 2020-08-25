@@ -33,7 +33,6 @@ p {
   text-align: center;
   font-size: 24px;
   border: none;
-  font-family: alice;
 }
 
 #email {
@@ -47,7 +46,6 @@ p {
   text-align: center;
   font-size: 24px;
   border: none;
-  font-family: alice;
 }
 
 #subject {
@@ -61,7 +59,6 @@ p {
   text-align: center;
   font-size: 24px;
   border: none;
-  font-family: alice;
 }
 
 #message {
@@ -75,7 +72,6 @@ p {
   text-align: center;
   font-size: 24px;
   border: none;
-  font-family: alice;
 }
 
 #button {
@@ -145,5 +141,23 @@ p {
 `
 
 export const HoursWrapper = styled.div`
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  justify-content: center;
 
+  .left {
+    position: relative;
+    left: 20rem;
+  }
+
+  .right {
+    position: absolute;
+    right: 20rem;
+  }
 `
