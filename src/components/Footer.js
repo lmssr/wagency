@@ -15,7 +15,7 @@ export const Footer = () => {
                 <Link className="img" to="/">
                   <FaInstagram/>
                 </Link>
-                <Link className="img" to="https://twitter.com/Luc_Mosser">
+                <Link className="img" to="/">
                   <FaTwitter/>
                 </Link>
                 <Link className="img" to="/">

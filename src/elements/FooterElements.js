@@ -6,9 +6,9 @@ export const FooterWrapper = styled.footer`
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: transparent;
-  position: relative;
+  background-color: green;
   width:100%;
+  font-size: 18px;
 
 
 
@@ -23,23 +23,24 @@ export const FooterWrapper = styled.footer`
 
 export const FooterSocialWrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
+  flex-wrap: nonwrap;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+
 
   & p {
     text-align: center;
     flex: 0 0 100%;
   }
+
 `
 
 export const FooterSocialIcons = styled.div`
   flex: 0 0 100%;
-  margin-bottom: 2rem;
-  font-size: 2.5vh;
+  font-size: 3vh;
   text-decoration: none;
-  align-items: flex-end;
-  align-items: right;
+  background-color: red;
 
   & .img {
     color: #444444;
