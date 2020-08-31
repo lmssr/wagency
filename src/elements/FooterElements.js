@@ -1,16 +1,14 @@
 import styled from 'styled-components'
 
 export const FooterWrapper = styled.footer`
+  display: flex;
+  flex-direction: row;
   min-height: 4rem;
   padding: 1rem 0;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
   background-color: green;
   width:100%;
   font-size: 18px;
-
-
 
 
   @media (max-width: 1024px) {
@@ -22,11 +20,9 @@ export const FooterWrapper = styled.footer`
 `
 
 export const FooterSocialWrapper = styled.div`
-  display: flex;
-  flex-wrap: nonwrap;
-  flex-direction: row;
   width: 100%;
   position: relative;
+  flex-direction: flex-end;
 
 
   & p {
