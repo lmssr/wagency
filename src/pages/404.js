@@ -10,9 +10,6 @@ const notFound = ({data}) => {
     <Container>
       <PostFeatureImage fixed={featureImage} />
       <Content>
-        <H1 textAlign="center" margin="22rem 0 1rem 11rem">
-        Je crois que ce que tu cherches ne se trouve pas ici...
-        </H1>
       </Content>
     </Container>
     )
