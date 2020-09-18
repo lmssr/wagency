@@ -12,4 +12,4 @@ export * from './ContactForm'
 export * from './Apropos'
 export * from './Table'
 export * from './Seo'
-export * from './Code'
+
